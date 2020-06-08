@@ -16,8 +16,8 @@ static const char *TAG = "motor control";
 int state[5][5]={
 /*M_Up*/	{0,	1,	0,	1},
 /*M_Down*/	{1	,0,	1,	0},
-/*M_Right*/	{0,	1,	0,	0},
-/*M_LEFT*/	{0,	0,	0,	1},
+/*M_Right*/	{1,	0,	0,	1},
+/*M_LEFT*/	{0,	1,	1,	0},
 /*M_STOP*/	{0 ,0,	0,	0}
 };
 
